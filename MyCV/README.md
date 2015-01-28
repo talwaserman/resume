@@ -1,3 +1,0 @@
-# Personal CV
-
-portfolio
