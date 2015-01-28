@@ -14,5 +14,8 @@
     "morgan": "~1.0.0",
     "serve-favicon": "^2.2.0",
     "static-favicon": "~1.0.0"
-  }
+  },
+    "engines": {
+        "node": "0.10.x"
+    }
 }
