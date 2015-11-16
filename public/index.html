@@ -7,6 +7,7 @@
     <title>Tal Waserman Resume</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="shortcut icon" href="/img/brain.ico" type="image/x-icon">
 
@@ -22,11 +23,11 @@
         <div class="col-xs-12">
           <div id="photo-header" class="text-center">
             <!-- PHOTO (AVATAR) -->
-            <div id="photo">
+            <div id="photo" class="wow flipInY">
               <img src="img/avatar.jpg" alt="avatar">
             </div>
             <div id="text-header">
-              <h1>Hello,<br> my name is <span>Tal Waserman</span> and this is my resume</h1>
+              <h1>Hello,<br> my name is <span class="wow flash">Tal Waserman</span> and this is my resume</h1>
             </div>
           </div>
         </div>
@@ -39,31 +40,24 @@
             <p>Age 29, Hard worker, autodidact with great communication skills, I love to learn new technologies and expand my knowledge.</p>
           </div>
           <!-- EDUCATION -->
-          <div class="box">
+          <div class="box wow fadeInUp" data-wow-delay='0.1s'>
             <h2>Education</h2>
             <ul id="education" class="clearfix">
-              <li>
+              <li class="wow fadeInLeft" data-wow-delay='0.5s'>
                 <div class="year pull-left">2009</div>
                 <div class="description pull-right">
                   <h3>BSc in Software Engineering</h3>
                   <p>Ort Braude Collage of Engineering in Israel, Majored in Data Mining and Image Processing.</p>
                 </div>
               </li>
-              <li>
-                <div class="year pull-left">2013</div>
-                  <div class="description pull-right">
-                      <h3>MSc in Software Engineering</h3>
-                      <p>Open university in Israel. (in progress)</p>
-                  </div>
-              </li>
-              <li>
+              <li class="wow fadeInRight" data-wow-delay='1s'>
                 <div class="year pull-left">2014</div>
                 <div class="description pull-right">
                   <h3>SELA collage</h3>
                   <p>Advanced JavaScript.</p>
                 </div>
               </li>
-              <li>
+              <li class="wow fadeInLeft" data-wow-delay='1.5s'>
                 <div class="year pull-left">2014</div>
                 <div class="description pull-right">
                   <h3>Lynda courses in Software Engineering</h3>
@@ -74,8 +68,8 @@
           </div>
           <!-- EXPERIENCES -->
           <div class="box">
-            <h2>Experiences</h2>
-            <div class="job clearfix">
+            <h2 class="wow fadeInUp" data-wow-delay='0.1s'>Experiences</h2>
+            <div class="job clearfix wow fadeInUp" data-wow-delay='0.5s'>
               <div class="col-xs-3">
                 <div class="where">AppCard</div>
                 <div class="year">2015-Current</div>
@@ -85,7 +79,7 @@
                 <div class="description">Front End developer at AppCard. Working on customer loyalty solutions. The work is done in short cycles of development and across multiple locations which requires strong communication skills, responsibility and independence.</div>
               </div>
             </div>
-            <div class="job clearfix">
+            <div class="job clearfix wow fadeInUp" data-wow-delay='1s'>
               <div class="col-xs-3">
                 <div class="where">SAP</div>
                 <div class="year">2013-2015</div>
@@ -95,7 +89,7 @@
                 <div class="description">Web Developer at SAP LABS, Client side and server side programming, working in an Agile scram team with rapid development cycles, Developing test driven web applications on the cloud.</div>
               </div>
             </div>
-              <div class="job clearfix">
+              <div class="job clearfix wow fadeInUp" data-wow-delay='1.5s'>
                   <div class="col-xs-3">
                       <div class="where">SAP - Intern</div>
                       <div class="year">2011 - 2013</div>
@@ -106,8 +100,8 @@
                   </div>
               </div>
 
-              <h2>Personal Projects</h2>
-              <div class="job clearfix">
+              <h2 class="wow fadeInUp" data-wow-delay='0.1s'>Personal Projects</h2>
+              <div class="job clearfix wow fadeInUp" data-wow-delay='0.5s'>
                   <div class="col-xs-3">
                       <div class="where">Ort Braude</div>
                       <div class="year">2013</div>
@@ -117,7 +111,7 @@
                       <div class="description">Automatic Quantitative Assessment of Hand Movements and Finger Taps in Parkinson's Disease. The project was presented in Machine learning conference in Bar-Ilan university</div>
                   </div>
               </div>
-              <div class="job clearfix">
+              <div class="job clearfix wow fadeInUp" data-wow-delay='0.5s'>
                   <div class="col-xs-3">
                       <div class="where">Home</div>
                       <div class="year">2014</div>
@@ -127,7 +121,7 @@
                       <div class="description">Doctor patient platform for communication based on WebRTC , the platform enabled doctors to monitor patients disorder progression and also communicate via webRTC with their patients, the system was developed as a personal poc. Link: <a href="https://homeconnect.herokuapp.com/login/light-index.html" target="_blank">https://homeconnect.herokuapp.com</a></div>
                   </div>
               </div>
-              <div class="job clearfix">
+              <div class="job clearfix wow fadeInUp" data-wow-delay='1s'>
                   <div class="col-xs-3">
                       <div class="where">Home</div>
                       <div class="year">2014</div>
@@ -137,7 +131,7 @@
                       <div class="description">Seed project for fast development and production environment, deployed to Heroku for continues integration in development and production cycles, includes GulpJS , AngularJS and NodeJS</div>
                   </div>
               </div>
-              <div class="job clearfix">
+              <div class="job clearfix wow fadeInUp" data-wow-delay='1.5s'>
                   <div class="col-xs-3">
                       <div class="where">Home</div>
                       <div class="year">2015</div>
@@ -151,7 +145,7 @@
         </div>
         <div class="col-xs-12 col-sm-5">
           <!-- CONTACT -->
-          <div class="box clearfix">
+          <div class="box clearfix wow fadeIn">
             <h2>Contact</h2>
             <div class="contact-item">
               <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
@@ -227,29 +221,30 @@
           <div class="box">
             <h2>Languages</h2>
             <div id="language-skills">
-              <div class="skill">Hebrew <div class="icons pull-right"><div style="width: 100%;" class="icons-red"></div></div></div>
-              <div class="skill">English <div class="icons pull-right"><div style="width: 100%;" class="icons-red"></div></div></div>
+              <div class="skill wow fadeInUp" data-wow-delay='0.1s'>Hebrew <div class="icons pull-right"><div style="width: 100%;" class="icons-red"></div></div></div>
+              <div class="skill wow fadeInUp" data-wow-delay='0.8s'>English <div class="icons pull-right"><div style="width: 100%;" class="icons-red"></div></div></div>
             </div>
           </div>
           <!-- HOBBIES -->
           <div class="box">
             <h2>Hobbies</h2>
-            <div class="hobby">Programming</div>
-            <div class="hobby">Learning New things</div>
-            <div class="hobby">IoT</div>
-            <div class="hobby">Movies</div>
-            <div class="hobby">Bicycle</div>
-            <div class="hobby">Gardening</div>
-            <div class="hobby">Swimming</div>
-            <div class="hobby">Music</div>
+            <div class="hobby wow fadeInRight">Programming</div>
+            <div class="hobby wow fadeInRight" data-wow-delay='0.1s'>Learning New things</div>
+            <div class="hobby wow fadeInRight" data-wow-delay='0.8s'>Movies</div>
+            <div class="hobby wow fadeInRight" data-wow-delay='1.2s'>Bicycle</div>
+            <div class="hobby wow fadeInRight" data-wow-delay='1.6s'>Gardening</div>
+            <div class="hobby wow fadeInRight" data-wow-delay='2s'>Swimming</div>
+            <div class="hobby wow fadeInRight" data-wow-delay='2.4s'>Music</div>
           </div>
         </div>
       </div>
     </div>
-    <!-- JQUERY -->
+    <!-- 3rd Party-->
     <script src="js/jquery.min.js"></script>
-    <!-- BOOTSTRAP -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+
     <!-- SCRIPTS -->
     <script src="js/scripts.js"></script>
   </body>

@@ -1,3 +1,5 @@
+new WOW().init();
+
 var callback = function(){
 	$('.item-skills').each(function(){
 		newWidth = $(this).parent().width() * $(this).data('percent');
